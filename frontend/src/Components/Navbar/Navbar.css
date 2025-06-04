@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Angelos';
+  src: url('../Assets/Angelos.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -12,9 +19,11 @@
 }
 
 .nav-logo p{
-  color: #171717;
-  font-size: 38px;
-  font-weight: 600;
+  color: #db1e4a;
+  font-family: 'Angelos';
+  src: url('../Assets/Angelos.ttf') format('truetype');
+  font-size: 58px;
+  font-weight: 300;
 }
 
 .nav-menu{
@@ -41,7 +50,7 @@
   width: 80%;
   height: 3px;
   border-radius: 10px;
-  background-color: #FF4141;
+  background-color: #db1e4a;
 }
 
 .nav-login-cart {
@@ -68,6 +77,11 @@
   background: #f3f3f3;
 }
 
+.nav-login-cart button:hover{
+  background: #db1e4a;
+  color: white;
+}
+
 .nav-cart-count {
   width: 22px;
   height: 22px;
@@ -83,7 +97,7 @@
 }
 
 .nav-logo img {
-  height: 40px;
+  height: 70px;
   width: auto;
   object-fit: contain;
 }

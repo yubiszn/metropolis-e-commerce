@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'
-import logo from "../Assets/palm_tree.png"
+import logo from "../Assets/daily_planet.png"
 import cart_icon from "../Assets/cart_icon.png"
 import { Link } from 'react-router-dom';
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='nav-logo'>
         <img src={logo} alt=""/>
-        <p>Paradise</p>
+        <p>Metropolis</p>
       </div>
        <ul className='nav-menu'>
         <li onClick={() => setMenu("shop")}>
