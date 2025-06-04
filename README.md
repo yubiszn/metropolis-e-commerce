@@ -1,6 +1,6 @@
-# Shopper : E-Commerce Web Application
+# Metropolis : E-Commerce Web Application
 
-Shopper is a full-stack eCommerce website built using the MERN stack (MongoDB, Express, React, Node.js). This project allows users to browse products, add them to a shopping cart, and securely register or log in to make purchases. The admin panel enables administrators to manage product listings, updating product details and stock. The backend includes APIs for adding and updating products, handling user authentication, and managing cart items.
+Metropolis is a full-stack eCommerce website built using the MERN stack (MongoDB, Express, React, Node.js). This project allows users to browse products, add them to a shopping cart, and securely register or log in to make purchases. The admin panel enables administrators to manage product listings, updating product details and stock. The backend includes APIs for adding and updating products, handling user authentication, and managing cart items.
 
 # Features
 
