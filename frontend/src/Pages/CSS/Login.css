@@ -37,7 +37,7 @@ form input {
 
 form button {
   padding: 0.8rem;
-  background-color: #db1e4a;
+  background-color: #000000;
   color: white;
   font-size: 1rem;
   border: none;
@@ -47,7 +47,8 @@ form button {
 }
 
 form button:hover {
-  background-color: #007bff;
+  background-color: #eccf30;
+  color: black;
 }
 
 .login-container p {
@@ -57,7 +58,7 @@ form button:hover {
 }
 
 .login-container span {
-  color: #db1e4a;
+  color: #007bff;
   cursor: pointer;
   text-decoration: underline;
 }

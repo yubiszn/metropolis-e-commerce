@@ -19,7 +19,7 @@
 }
 
 .nav-logo p{
-  color: #db1e4a;
+  color: #eccf30;
   font-family: 'Angelos';
   src: url('../Assets/Angelos.ttf') format('truetype');
   font-size: 58px;
@@ -50,7 +50,7 @@
   width: 80%;
   height: 3px;
   border-radius: 10px;
-  background-color: #db1e4a;
+  background-color: #000000;
 }
 
 .nav-login-cart {
@@ -78,8 +78,8 @@
 }
 
 .nav-login-cart button:hover{
-  background: #db1e4a;
-  color: white;
+  background: #eccf30;
+  color: rgb(0, 0, 0);
 }
 
 .nav-cart-count {

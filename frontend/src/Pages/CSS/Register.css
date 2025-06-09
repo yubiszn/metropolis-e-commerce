@@ -39,8 +39,8 @@ button {
   width: 100%;
   margin-top: 1.2rem;
   padding: 0.8rem;
-  background-color: #007bff;
-  color: white;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   border: none;
   border-radius: 6px;
@@ -49,7 +49,8 @@ button {
 }
 
 button:hover {
-  background-color: #db1e4a;
+  background-color: #eccf30;
+  color: #000000;
 }
 
 .register-login {

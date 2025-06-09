@@ -1,33 +1,33 @@
-import React from 'react'
-import './Hero.css'
-import hand_icon from '../Assets/hand_icon.png'
-import arrow_icon from '../Assets/arrow.png'
-import hero_image from '../Assets/hero_image.png'
+import React from "react";
+import "./Hero.css";
+import flash from '../Assets/flash.png';
+import superman from '../Assets/supermannewspaper.png';
+
 const Hero = () => {
   return (
-    <div>
-      <div className='hero'>
-        <div className='hero-left'>
-        <h2>NEW ARRIVALS ONLY</h2>
-        <div>
-          <div className='hero-hand-icon'>
-            <p>new</p>
-            <img src={hand_icon} alt="" />
-          </div>
-          <p>collections</p>
-          <p>for everyone</p>
+    <section className="hero-section">
+      <div className="hero-content">
+        <div className="top-section">
+          <h1>EXTRA !! EXTRA !!</h1>
         </div>
-        <div className='hero-latest-btn'>
-          <div>Latest Collection</div>
-          <img src={arrow_icon} alt="" />
-        </div>
-      </div>
-      <div className='hero-right'>
-        <img src={hero_image} alt="" />
-      </div>
-    </div>
-    </div>
-  )
-}
 
-export default Hero
+        <div className="bottom-section">
+          <h1>EXTRA !! EXTRA !!</h1>
+          <div className="bottom-content">
+  <h3>
+    Elevated essentials crafted for every moment — from rooftop chases to city strolls and coffee breaks
+  </h3>
+</div>
+        </div>
+      </div>
+
+      <div className="hero-images">
+        <img src={superman} alt="Superman Newspaper" />
+        <img src={flash} alt="Flash" />
+        <img src={flash} alt="Flash" />
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
