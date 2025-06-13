@@ -3,11 +3,12 @@ import './ProductDisplay.css'
 import star_icon from "../Assets/star_icon.png"
 import star_dull_icon from "../Assets/star_dull_icon.png"
 import { ShopContext } from '../../Context/ShopContext'
+import ProductAddedModal from "../ProductAddedModal/ProductAddedModal";
+
 
 const ProductDisplay = (props) => {
   const { product } = props;
-
-  const {addToCart} = useContext(ShopContext);
+  const {addToCart, showModal} = useContext(ShopContext);
 
 
   return (
@@ -55,7 +56,10 @@ const ProductDisplay = (props) => {
           </div>
         </div>
 
-        <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
+         <div className="add-to-cart-container">
+           <button onClick={() => addToCart(product.id)}>ADD TO CART</button>
+          <ProductAddedModal visible={showModal} />
+        </div>
 
         <p className="productdisplay-right-category">
           <span>Category: </span>Women, T-Shirt, Crop Top
@@ -64,6 +68,8 @@ const ProductDisplay = (props) => {
           <span>Tags: </span>Modern, Latest
         </p>
       </div>
+
+      <ProductAddedModal visible={showModal} />
     </div>
   )
 }

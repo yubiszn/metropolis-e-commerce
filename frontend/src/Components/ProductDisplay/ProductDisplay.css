@@ -108,6 +108,10 @@
     cursor: pointer;
 }
 
+.add-to-cart-container {
+  position: relative;
+  display: inline-block;
+}
 
 .productdisplay-right-category {
     margin-top: 10px;
